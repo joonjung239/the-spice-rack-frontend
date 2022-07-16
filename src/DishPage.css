@@ -1,0 +1,35 @@
+.grid {
+    /* margin-top: 30px; */
+    grid-column-start: 1;
+    grid-column-end: 5;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    display: grid;
+    gap: 50px;
+    margin-bottom: 30px;
+}
+
+#cuisine-option {
+    color: brown;
+}
+
+#cuisine-option:hover {
+    cursor: pointer;
+    font-size: 50px;
+    color: orange;
+}
+
+/* form {
+    padding: 10px;
+} */
+
+input {
+    margin-top: 10px;
+}
+
+select {
+    margin-top: 10px;
+}
+
+#add-dish {
+    margin-top: 10px;
+}
